@@ -7,7 +7,7 @@ contract HelloWorld {
     uint256 btc;
     int256 eth;
 
-// We can receive Bitcoin for storage thrpugh this function
+// We can receive Bitcoin for storage through this function
     function storeBTC(uint256 _btc) public {
         btc = _btc;
     }
